@@ -6,6 +6,7 @@
   "dependencies": {
     "google-auth-library": "^0.9.7",
     "googleapis": "^2.1.7",
+    "moment": "^2.11.2",
     "node-telegram-bot-api": "^0.17.0"
   },
   "devDependencies": {},

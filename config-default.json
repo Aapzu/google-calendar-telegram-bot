@@ -1,3 +1,5 @@
 {
-    "telegramBotToken": ""
+    "telegramBotToken": "",
+    "clientCredentialsFile": "client_secret.json",
+    "userCredentialsFile": "credentials.json"
 }
