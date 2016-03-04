@@ -6,4 +6,5 @@ global.config = Object.assign(
 );
 
 const Bot = require('./lib/Bot.js');
-const bot = new Bot(config.telegramBotToken);
+const bot = new Bot();
+bot.start();

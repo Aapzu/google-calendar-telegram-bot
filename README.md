@@ -4,16 +4,21 @@ This bot can interact with Google Calendar API, allowing you to easily add/manag
 
 ## Interaction ##
 
-You can just add an event to your default calendar by sending a message to the bot following these rules:
+You can just add an event to your default calendar by sending a message to the bot following these rules (only spanish for now):
 
-`<event name> <when> <reminder>`
+`<event name>[,.] <when> <reminder>`
 
 `<when>` can be specified using multiple formats. Examples:
-    * tomorrow 6pm
-    * next wednesday
-    * next monday 9am
-    * april 10
+
+    * mañana 18 (mañana a las 18hs)
+    * hoy 16 (hoy a las 16hs)
+    * mie 8-10 (próximo Miércoles de 8 a 10hs)
+    * lun 9:30 (próximo Lunes 9:30am)
+    * abr 10 (10 de Abril, todo el día)
+    * sep 2 9:30-10:45 (2 de Septiembre de 9:30 a 10:45am)
+
 `<reminder>` Examples:
+
     * 10m *10 minutes before*
     * 1h *1 hour before*
     * 1d *1 day before*
@@ -22,13 +27,12 @@ You can just add an event to your default calendar by sending a message to the b
 
     * Create a bot: https://core.telegram.org/bots
     * Create a config.json file in the root directory with the following schema:
-    * Register your app using Google developers console: https://console.developers.google.com/
-    * Download and save your `client_secret.json` in the root directory
-
     ```
     {
         "telegramBotToken": "..."
     }
-
     ```
+    * Register your app using Google developers console: https://console.developers.google.com/
+    * Download and save your `client_secret.json` in the root directory
+    * Install MongoDB: https://www.mongodb.org
     * `npm install && npm start`
