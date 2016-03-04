@@ -6,7 +6,7 @@ This bot can interact with Google Calendar API, allowing you to easily add/manag
 
 You can just add an event to your default calendar by sending a message to the bot following these rules (only spanish for now):
 
-`<event name>[,.] <when> <reminder>`
+`<event name>, <when> <reminder>`
 
 `<when>` can be specified using multiple formats. Examples:
 
@@ -17,11 +17,16 @@ You can just add an event to your default calendar by sending a message to the b
     * abr 10 (10 de Abril, todo el día)
     * sep 2 9:30-10:45 (2 de Septiembre de 9:30 a 10:45am)
 
-`<reminder>` Examples:
+`<reminder>` is optional. Examples:
 
-    * 10m *10 minutes before*
-    * 1h *1 hour before*
-    * 1d *1 day before*
+    * 10m (10 minutos antes)
+    * 1h (1 hora antes)
+    * 1d (1 día antes)
+
+Full examples:
+
+    * entrevista, mañana 9, 12h
+    * cumple de pepe, vie 20
 
 ## Setup ##
 
