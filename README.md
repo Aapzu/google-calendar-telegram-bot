@@ -2,6 +2,10 @@
 
 This bot can interact with Google Calendar API, allowing you to easily add/manage events.
 
+This is currently up and running and you may use it: https://telegram.me/google_calendar_bot
+
+English support with more features coming soon!
+
 ## Interaction ##
 
 You can just add an event to your default calendar by sending a message to the bot following these rules (only spanish for now):
