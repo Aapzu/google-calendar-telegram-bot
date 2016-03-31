@@ -31,12 +31,7 @@ Full examples:
 ## Setup ##
 
     * Create a bot: https://core.telegram.org/bots
-    * Create a config.json file in the root directory with the following schema:
-    ```
-    {
-        "telegramBotToken": "..."
-    }
-    ```
+    * Create a config.json file in the root directory with the same schema as config-default.json
     * Register your app using Google developers console: https://console.developers.google.com/
     * Download and save your `client_secret.json` in the root directory
     * Install MongoDB: https://www.mongodb.org
