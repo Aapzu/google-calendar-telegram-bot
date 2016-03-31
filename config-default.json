@@ -1,6 +1,5 @@
 {
     "telegramBotToken": "",
     "clientCredentialsFile": "client_secret.json",
-    "userCredentialsFile": "credentials.json",
     "db": "mongodb://localhost:27017/calendar-bot"
 }
