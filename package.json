@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "google-auth-library": "^0.9.7",
-    "googleapis": "^2.1.7",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^16.0.0",
     "moment": "^2.11.2",
     "mongodb": "^2.1.7",
     "node-telegram-bot-api": "^0.17.0"
